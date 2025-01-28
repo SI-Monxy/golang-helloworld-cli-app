@@ -1,0 +1,30 @@
+# Go関連の除外ファイル
+
+# バイナリファイル（ビルドで生成される実行ファイル）
+golang-helloworld-cli-app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# テストのバイナリファイル
+*.test
+
+# カバレッジファイル
+*.out
+
+# 依存関係のディレクトリ（必要な場合）
+/vendor/
+
+# Go workspaceファイル
+go.work
+
+# MacOS固有のファイル
+.DS_Store
+
+# IDEやエディタの設定ファイル
+.idea/
+.vscode/
+*.swp
+*.swo
